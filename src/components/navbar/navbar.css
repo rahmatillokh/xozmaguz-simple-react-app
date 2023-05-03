@@ -1,0 +1,34 @@
+/* nav{
+    display: flex;
+    justify-content: space-between;
+}
+
+nav ul{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin-left: 30px;
+}
+nav ul li {
+    list-style: none;
+    padding-right: 20px;
+}
+
+.mySwiper{
+    background-color: blue;
+    height: 80vh;
+    width: 200vh;
+    border-radius: 30px;
+} */
+
+.sidebar {
+    animation: slide-sidebar 0.5s cubic-bezier(0.25, 0.46, 0.45, 0.94) both;
+}
+@keyframes slide-sidebar {
+    0%{
+        transform: translateX(200px);
+    }
+    100%{
+        transform: translateX(0);
+    }
+}

@@ -1,0 +1,7 @@
+.footer li{
+    cursor: pointer;
+    transition: ease 0.1s;
+}
+.footer li:hover{
+    color: rgba(255, 255, 255, 0.7);
+}
